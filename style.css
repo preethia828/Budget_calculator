@@ -1,0 +1,52 @@
+#round-div{
+    width: 100px;
+    height: 100px;
+    border: 4px solid rgb(16, 233, 16);
+    border-radius: 50px;
+}
+#main_div{
+    width: 70%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(138, 228, 138);
+}
+#list_div{
+    width: 200px;
+    border: 3px solid rgb(72, 69, 69);
+    height: 40px;
+    border-radius: 6px;
+    box-shadow: 1px 2px 3px 0px;
+}
+#table1,#table2{
+    width: 100%;
+    text-align: center;
+}
+
+/*******Login*******/
+#background_div{
+    background-image: url(images/istockphoto-495853751-612x612.jpg);
+    background-size: cover;
+    width: 60%;
+    border: 13px solid;
+}
+#user_name,#password{
+    background-color: black;
+    border: none;
+    color: #fff;
+}
+#user_name::placeholder,#password::placeholder{
+    color: #fff;
+}
+
+/****************/
+
+@media(max-width:650px){
+    #table_div{
+        flex-direction: column;
+    }
+    #main_div{
+       min-height: 150vh;
+    }
+}
